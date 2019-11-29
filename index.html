@@ -38,7 +38,8 @@
 						<ul class="list-unstyled mb-0">
 							<!--								<li class="mb-2"><i class="fas fa-phone-square fa-fw fa-lg mr-2 "></i><a class="resume-link" href="tel:#"></a></li>-->
 							<li class="mb-2"><i class="fas fa-envelope-square fa-fw fa-lg mr-2"></i><a class="resume-link" href="mailto:#">xx@sbrella.com</a></li>
-							<li class="mb-2"><i class="fas fa-globe fa-fw fa-lg mr-2"></i><a class="resume-link" href="#">www.sourcebrella.com</a></li>
+							<li class="mb-2"><i class="fas fa-globe fa-fw fa-lg mr-2"></i><a class="resume-link" href="www.sourcebrella.com">Sourcebrella</a></li>
+							<li class="mb-2"><i class="fas fa-globe fa-fw fa-lg mr-2"></i><a class="resume-link" href="http://web.archive.org/web/20170817134356/http://richardxx.blogcn.com/">Old technical blog</a></li>
 							<li class="mb-0"><i class="fas fa-map-marker-alt fa-fw fa-lg mr-2"></i>Shenzhen, China</li>
 						</ul>
 					</div><!--//resume-contact-->
@@ -64,13 +65,14 @@
 							</ul>
 
 							Now, I'm interested in any automatic tools and methods to improve software development productivity.
-							Our company, <a href="www.sourcebrella.com">Sourcebrella</a>, is believing in automation should replace low creativity programming work.
+							Our company, <a href="www.sourcebrella.com">Sourcebrella</a>, is believing in automation should take over low creativity programming work.
 							<br>
 							<br>
 							<img src="assets/gifs/new.gif" width="40" height="25">Our jobs are opening!
-							All talents in static analysis, compilers, web service, and data mining are highly welcome.
-							The salary can best match the first tier level anywhere in China and the working locations can be Hangzhou, Shanghai, Shenzhen.
+							All talents in program analysis, compilers, reverse engineering, web service, software data mining, and so on are highly welcome.
+							The salary is highly competitive and the working locations can be Hangzhou, Shanghai, and Shenzhen.
 						    <a href="mailto: hr@sbrella.com">Write to us</a> if you feel the same passion and want to join our great adventure.
+							We will reply every job inquiry to respect your interest in us.
 						</p>
 					</div><!--//media-body-->
 				</div>
@@ -131,17 +133,27 @@
 										<br>
 										<strong>Xiao Xiao</strong>, Charles Zhang
 									</li>
+
+                                    <li><a href="assets/papers/track_nier11.pdf">Tracking Data Structures for Postmortem Analysis</a>, <strong><em>ICSE 2011 NIER TRACK</em></strong> [<a href="assets/ppts/track_nier11_slides.pdf">slides</a>]
+                                        <br>
+                                        <strong>Xiao Xiao</strong>, Jinguo Zhou, Charles Zhang
+                                    </li>
 								</ol>
 							</div><!--//item-->
 						</section><!--//publication-section-->
 
 						<section class="work-section py-3">
-							<h3 class="text-uppercase resume-section-heading mb-4">Technical reports</h3>
+							<h3 class="text-uppercase resume-section-heading mb-4">Manuscripts</h3>
 							<div class="item mb-3">
-								<li>
-									<a href="assets/papers/pinpoint.pdf">Pinpoint: Fast and Precise Sparse Value Flow Analysis for Million Lines of Code</a>,
-									<em><strong>PLDI 2018 </strong></em><br>
-									Qingkai Shi, <strong>Xiao Xiao</strong>, Rongxin Wu, Jinguo Zhou, Gang Fan, Charles Zhang
+                                <li><a href="assets/ppts/k-reach.pdf">On the K-reachability Problem for Data Flow Analysis</a><br>
+                                    <em><strong>Tom Ball Visiting Talk</strong></em>
+                                </li>
+                                <li><a href="assets/papers/pqe.pdf">On the Importance of Program Representations in Static Analysis</a> [<a href="assets/ppts/pqe_slides.pdf">slides</a>]<br>
+                                    <em><strong>PQE Survey</strong></em>
+                                </li>
+								<li><a href="assets/papers/geom-tr.pdf">Scaling Context Sensitive Points-to Analysis by Geometric
+									Encoding</a><br>
+									<em><strong>Technical report of the ISSTA 2011 paper</strong></em>
 								</li>
 							</div><!--//item-->
 
@@ -187,7 +199,7 @@
 								</div>
 						</section><!--//work-section-->
 
-						<section class="project-section py-3">
+						<!--<section class="project-section py-3">
 							<h3 class="text-uppercase resume-section-heading mb-4">Projects</h3>
 							<div class="item mb-3">
 								<div class="item-heading row align-items-center mb-2">
@@ -218,7 +230,7 @@
 									</ul>
 
 								</div>
-							</div><!--//item-->
+							</div>&lt;!&ndash;//item&ndash;&gt;
 							<hr>
 							<div class="item">
 								<div class="item-heading row align-items-center mb-2">
@@ -237,14 +249,14 @@
 
 									<h4>Related Publications:</h4>
 									<ul class="STYLE8">
-										<li><a href="papers/pestrie.pdf">Persistent Pointer Information</a>
-											[<a href="papers/pestrie_slides.pdf">slides</a>]
-											[<a href="https://web.archive.org/web/20160419214048/https://github.com/richardxx/pestrie">Code</a>]<br>
+										<li><a href="assets/papers/pestrie.pdf">Persistent Pointer Information</a>
+											[<a href="assets/ppts/pestrie_slides.pdf">slides</a>]
+											[<a href="https://github.com/richardxx/pestrie">Code</a>]<br>
 											<strong>Xiao Xiao</strong>, Qirun Zhang, Jinguo Zhou, Charles Zhang. Appeared in <em><strong> PLDI
 												2014 </strong></em></li>
 									</ul>
 								</div>
-							</div><!--//item-->
+							</div>&lt;!&ndash;//item&ndash;&gt;
 							<hr>
 							<div class="item">
 								<div class="item-heading row align-items-center mb-2">
@@ -255,30 +267,30 @@
 										Geometric encoding is a lightweight approach for encoding context sensitive points-to facts with simple geometric figures, such as segments and
 										rectangles. It can be seen a simplified version of octagon domain. With geometric encoding, points-to analysis can be formulated as a standard abstract interpretation.
 										<br>
-										Currently, our reference implementation has been adopted by <a href="https://web.archive.org/web/20160419214048/http://www.sable.mcgill.ca/soot/">Soot</a> program analysis tool since version 2.5.
-										Please always use the <a href="https://web.archive.org/web/20160419214048/http://vandyk.st.informatik.tu-darmstadt.de/abc/soot.jar">nightly built version</a> of
+										Currently, our reference implementation has been adopted by <a href="http://www.sable.mcgill.ca/soot/">Soot</a> program analysis tool since version 2.5.
+										Please always use the nightly built version of
 										Soot, because <strong>we have successfully scaled
 										our algorithm to JDK 1.6</strong>! Read the geomPTA tutorial
-										<a href="https://web.archive.org/web/20160419214048/https://github.com/Sable/soot/wiki/Using-Geometric-Encoding-based-Context-Sensitive-Points-to-Analysis-(geomPTA)">here</a>.
+										<a href="https://github.com/Sable/soot/wiki/Using-Geometric-Encoding-based-Context-Sensitive-Points-to-Analysis-(geomPTA)">here</a>.
 									</p>
 
 									<h4>Related Publications:</h4>
 
 									<ul>
-										<li><a href="papers/geom.pdf">Geometric Encoding: Forging the High Performance Context Sensitive Points-to
-											Analysis for Java</a> [<a href="papers/geom_slides.pdf">slides</a>] <br>
+										<li><a href="assets/papers/geom.pdf">Geometric Encoding: Forging the High Performance Context Sensitive Points-to
+											Analysis for Java</a> [<a href="assets/ppts/geom_slides.pdf">slides</a>] <br>
 											<strong>Xiao Xiao</strong>, Charles Zhang. Appeared in <strong><em>ISSTA 2011 </em></strong></li>
 									</ul>
 
 									<ul>
-										<li><a href="papers/geom-tr.pdf">Scaling Context Sensitive Points-to Analysis by Geometric
+										<li><a href="assets/papers/geom-tr.pdf">Scaling Context Sensitive Points-to Analysis by Geometric
 											Encoding</a><br>
 											<strong>Xiao Xiao</strong>, Charles Zhang. A longer version of the ISSTA 2011 paper. <em><strong>Technical report</strong></em>
 										</li>
 									</ul>
 								</div>
-							</div><!--//item-->
-						</section><!--//project-section-->
+							</div>&lt;!&ndash;//item&ndash;&gt;
+						</section>&lt;!&ndash;//project-section&ndash;&gt;-->
 					</div><!--//resume-main-->
 
 					<aside class="resume-aside col-12 col-lg-4 col-xl-3 px-lg-4 pb-lg-4">
